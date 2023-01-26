@@ -34,7 +34,7 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-01-22_1126",
+    "name": "PVZ.GIDZAP.RU",
     "versionFirst": "5.6.13",
     "siteFonts": [
       {
@@ -47,17 +47,46 @@
     "uniqCompNum": 37,
     "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "chatbutton": {
+      "phone": "+79673213377",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "Рады приветствовать Вас!👋\n\nНапишите нам прямо сейчас, мы ответим в Whatsapp 🔥\n\nС Уважением, Gidzap.",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "5",
+      "headerColor": "#39847a",
+      "headerTitle": "👋  На связи Gidzap!",
+      "placeholder": "Введите текст",
+      "zIndex": 10,
+      "enabled": true
+    },
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://pvz.gidzap.ru",
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "mbrsiteDomain": "qpa3aalcqs",
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Пункт выдачи заказов Gidzap",
+        "meta_descr": "Предложение специально для автомагазинов и автомастерских (СТО). Дополнительный доход на базе существующего бизнеса. Дополнительный поток клиентов в ваш бизнес, приносит пункт выдачи Gidzap.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/5828995-1-1296x1296.png"
       },
       "components": [
         {
@@ -1547,7 +1576,7 @@
           },
           "_name": "afeatures6",
           "_sourceTheme": "cyberm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"color\" title=\"Label BG\" name=\"labelBg\" value=\"#f0e4ff\" condition=\"showLabel\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image BG\" name=\"showImgBg\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-lg-6 col-md-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <p class=\"label-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLabel\" data-app-selector=\".label-text\">\n                        <span>CONTACT US</span>\n                    </p>\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Полезное сотрудничество</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Для партнеров Gidzap доступны максимальные скидки от оптовых складов автозапчастей, а также комплексные решения по продвижению бизнеса.&nbsp;&nbsp;<br>Предоставляем доступ полезным инструментам для автобизнеса. Если у Вас есть собственное наличие товара, Вы можете стать поставщиком для остальных пользователей системы, а также подключить автовыгрузку своих товаров на площадки авито и дром.<br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Send Message</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/6155818-gidzap-1-839x839.png\" alt=\"Mobirise\">\n            </div>\n            <div class=\"bg-round\" mbr-if=\"showImgBg\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"auto\" width=\"628\" height=\"876\" viewBox=\"0 0 628 876\" fill=\"none\">\n                    <rect x=\"231.129\" y=\"1039.63\" width=\"909.521\" height=\"792.67\" rx=\"396.335\" transform=\"rotate(-135 231.129 1039.63)\" fill=\"url(#paint0_linear_462_323)\"></rect>\n                    <defs>\n                        <linearGradient id=\"paint0_linear_462_323\" x1=\"280.745\" y1=\"1480.86\" x2=\"1089.32\" y2=\"1480.85\" gradientUnits=\"userSpaceOnUse\">\n                            <stop stop-color=\"#F6FDFF\"></stop>\n                            <stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0\"></stop>\n                        </linearGradient>\n                    </defs>\n                </svg>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"color\" title=\"Label BG\" name=\"labelBg\" value=\"#f0e4ff\" condition=\"showLabel\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image BG\" name=\"showImgBg\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-lg-6 col-md-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <p class=\"label-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLabel\" data-app-selector=\".label-text\">\n                        <span>CONTACT US</span>\n                    </p>\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Полезное сотрудничество</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Для партнеров Gidzap доступны максимальные скидки от оптовых складов автозапчастей, а также комплексные решения по продвижению бизнеса.&nbsp;&nbsp;<br>Предоставляем доступ полезным инструментам для автобизнеса. Если у Вас есть собственное наличие товара, Вы можете стать поставщиком для остальных пользователей системы, а также подключить автовыгрузку своих товаров на площадки авито и дром.<br>Дополнительный трафик клиентов в Ваш бизнес.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Send Message</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/6155818-gidzap-1-839x839.png\" alt=\"Mobirise\">\n            </div>\n            <div class=\"bg-round\" mbr-if=\"showImgBg\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"auto\" width=\"628\" height=\"876\" viewBox=\"0 0 628 876\" fill=\"none\">\n                    <rect x=\"231.129\" y=\"1039.63\" width=\"909.521\" height=\"792.67\" rx=\"396.335\" transform=\"rotate(-135 231.129 1039.63)\" fill=\"url(#paint0_linear_462_323)\"></rect>\n                    <defs>\n                        <linearGradient id=\"paint0_linear_462_323\" x1=\"280.745\" y1=\"1480.86\" x2=\"1089.32\" y2=\"1480.85\" gradientUnits=\"userSpaceOnUse\">\n                            <stop stop-color=\"#F6FDFF\"></stop>\n                            <stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0\"></stop>\n                        </linearGradient>\n                    </defs>\n                </svg>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "afeatures6-b",
           "_isUserblock": true,
           "_cid": "ttRaHLSbcT",
