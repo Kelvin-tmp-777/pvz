@@ -70,7 +70,7 @@
     "siteUrl": "https://pvz.gidzap.ru",
     "sitemapSwitcherAuto": "on",
     "favicon": false,
-    "mbrsiteDomain": "l3nvjzuuw2",
+    "mbrsiteDomain": "x90andtu1h",
     "cssOptimize": false,
     "lazyLoad": false,
     "cookiesAlert": false,
@@ -83,7 +83,7 @@
         "main": true,
         "title": "Пункт выдачи заказов Gidzap",
         "meta_descr": "Предложение специально для автомагазинов и автомастерских (СТО). Дополнительный доход на базе существующего бизнеса. Дополнительный поток клиентов в ваш бизнес, приносит пункт выдачи Gidzap.",
-        "header_custom": "<meta name=\"yandex-verification\" content=\"53b907e79f7e73b3\" />\n\n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" >\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n   m[i].l=1*new Date();\n   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\n   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n   ym(92206362, \"init\", {\n        clickmap:true,\n        trackLinks:true,\n        accurateTrackBounce:true,\n        webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/92206362\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
+        "header_custom": "<meta name=\"keywords\" content=\"открыть пункт выдачи, пвз gidzap, готовый бизнес, дополнитеный доход, для автомагазинов\" />\n\n<meta name=\"yandex-verification\" content=\"53b907e79f7e73b3\" />\n\n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" >\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n   m[i].l=1*new Date();\n   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\n   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n   ym(92206362, \"init\", {\n        clickmap:true,\n        trackLinks:true,\n        accurateTrackBounce:true,\n        webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/92206362\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/5828995-1-1296x1296.png"
